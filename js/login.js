@@ -39,7 +39,7 @@ item2.onclick  = function(){
 	_icon_i[0].style.display = "none";
 	_icon_i[1].style.display = "block";
 }
-// 短信方式登录
+// 短信方式登录出现
 var sms = document.getElementById("_sms");
 var _sms = document.getElementById("_sms_");
 var _input_box = document.getElementsByClassName("input-box");
@@ -61,7 +61,7 @@ _sms_.onclick = function(){
 		sms.style.display = "block";
 		_sms.style.display = "none";
 }
-// 二维码 
+// 二维码 登录方式出现
 var codeImg = document.getElementById("_code_img");
 var phoneSao = document.getElementById("phone_sao");
 codeImg.onmouseover=function(){
