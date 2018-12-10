@@ -25,7 +25,7 @@ $(".left-pointer").click(function () {
 $(".right-pointer").click(function () {
     if (m <= 0) {
         _show.style.left = "-780px";
-        m = 1;
+        m = 2;
     }
     m--;
     console.log(m);
