@@ -1,54 +1,77 @@
 var scroll = document.getElementById('scroll');
 var _scroll = document.getElementById('_scroll');
 var lis = document.querySelectorAll("#scroll li");
+// $("#floor").scrollTop();
+// console.log($("#floor").scrollTop());
+// $("#jiayong").scrollTop();
+// console.log($("#jiayong").scrollTop());
+// $("#floor-two").scrollTop();
+// $("#floor-three").scrollTop();
+// $("#meiwei").scrollTop();
+// $("#floor-four").scrollTop();
+// $("#floor-five").scrollTop();
+// $("#floor-six").scrollTop();
+// $("#biqiang").scrollTop();
+// $("#reco-floor").scrollTop();
+
 var timer = null;
-window.onscroll = function() {
-	if (document.documentElement.scrollTop >= 3000) {
+window.onscroll = function () {
+	if (document.documentElement.scrollTop >= 2300) {
 		scroll.style.display = "block";
 	} else {
 		scroll.style.display = "none";
 	}
-	if (document.documentElement.scrollTop >= 3100) {
+	// 1
+	if (document.documentElement.scrollTop >= 3000) {
 		clearBg();
 		lis[0].style.background = "#ff9900"
 	}
-	if (document.documentElement.scrollTop >= 3700) {
+	// 2
+	if (document.documentElement.scrollTop >= 3600) {
 		clearBg();
 		lis[1].style.background = "#ff9900"
 	}
+	// 3
 	if (document.documentElement.scrollTop >= 4200) {
 		clearBg();
 		lis[2].style.background = "#ff9900"
 	}
+	//4
 	if (document.documentElement.scrollTop >= 4800) {
 		clearBg();
 		lis[3].style.background = "#ff9900"
 	}
+	//5
 	if (document.documentElement.scrollTop >= 5400) {
 		clearBg();
 		lis[4].style.background = "#ff9900"
 	}
-	if (document.documentElement.scrollTop >= 5900) {
+	//6
+	if (document.documentElement.scrollTop >= 5800) {
 		clearBg();
 		lis[5].style.background = "#ff9900"
 	}
-	if (document.documentElement.scrollTop >= 4800) {
+	//7
+	if (document.documentElement.scrollTop >= 6500) {
 		clearBg();
 		lis[6].style.background = "#ff9900"
 	}
-	if (document.documentElement.scrollTop >= 5900) {
+	//8
+	if (document.documentElement.scrollTop >= 7100) {
 		clearBg();
 		lis[7].style.background = "#ff9900"
 	}
-	if (document.documentElement.scrollTop >= 7500) {
+	//9
+	if (document.documentElement.scrollTop >= 7600) {
 		clearBg();
 		lis[8].style.background = "#ff9900"
 	}
+	// 10
 	if (document.documentElement.scrollTop >= 8000) {
 		clearBg();
 		lis[9].style.background = "#ff9900"
 	}
-
+	//消失
 	if (document.documentElement.scrollTop >= 14500) {
 		scroll.style.display = "none";
 	}
@@ -56,7 +79,7 @@ window.onscroll = function() {
 
 for (var i = 0; i < lis.length; i++) {
 	lis[i].index = i;
-	lis[i].onclick = function() {
+	lis[i].onclick = function () {
 		if (700 * this.index >= document.documentElement.scrollTop) {
 			LayerMove("bottom", 700 * this.index);
 		} else {
@@ -73,7 +96,7 @@ for (var i = 0; i < lis.length; i++) {
 function LayerMove(dir, end) {
 	clearInterval(timer);
 	if (dir === "top") {
-		timer = setInterval(function() {
+		timer = setInterval(function () {
 			document.documentElement.scrollTop = document.documentElement.scrollTop - 10;
 			if (document.documentElement.scrollTop <= end) {
 				document.documentElement.scrollTop = end;
@@ -81,7 +104,7 @@ function LayerMove(dir, end) {
 			}
 		})
 	} else {
-		timer = setInterval(function() {
+		timer = setInterval(function () {
 			document.documentElement.scrollTop = document.documentElement.scrollTop + 10;
 			if (document.documentElement.scrollTop >= end) {
 				document.documentElement.scrollTop = end;
