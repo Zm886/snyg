@@ -1,8 +1,9 @@
+// 人气抢购
 var f = 0;
 var comList = document.getElementById("_comlist");
-function move(ele, dir, end) {
+function sports(ele, dir, end) {
     if (dir === "left") {
-        ele.style.lef = ele.offsetLeft - 380 + "px";
+        ele.style.left = ele.offsetLeft - 380 + "px";
         if (ele.style.offsetLeft <= end) {
             ele.style.left = end + "px";
         }
@@ -20,7 +21,7 @@ $("#leftBtn").click(function () {
     }
     f++;
     console.log(f)
-    move(comList, "left", -380 * f);
+    sports(comList, "left", -380 * f);
 })
 $("#rightBtn").click(function () {
     if (f <= 0) {
@@ -29,5 +30,5 @@ $("#rightBtn").click(function () {
     }
     f--;
     console.log(f)
-    move(comList, "right", -380 * f);
+    sports(comList, "left", -380 * f);
 })

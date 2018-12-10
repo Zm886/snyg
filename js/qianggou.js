@@ -7,7 +7,7 @@ $("._list_").mouseover(function () {
 // 左右轮播
 var s = 0;
 var item = document.getElementById("_item_");
-function move(ele, dir, end) {
+function movement(ele, dir, end) {
     if (dir === "left") {
         ele.style.left = ele.offsetLeft - 1000 + "px";
         if (ele.offsetLeft <= end) {
@@ -28,7 +28,7 @@ $(".left-btn").click(function () {
     }
     s++;
     console.log(s)
-    move(item, "left", -1000 * s);
+    movement(item, "left", -1000 * s);
 })
 $(".right-btn").click(function () {
     if (s <= 0) {
@@ -37,7 +37,7 @@ $(".right-btn").click(function () {
     }
     s--;
     console.log(s)
-    move(item, "left", -1000 * s);
+    movement(item, "left", -1000 * s);
 })
 
 // 倒计时
