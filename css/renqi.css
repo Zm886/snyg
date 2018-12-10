@@ -271,12 +271,11 @@
 	float: left;
 }
 .haohuo-r .haohuo-r-content .com-list{
-	width: 1200px;
+	width: 1520px;
 	height: 362px;
 	position: absolute;
 	left: 10px;
 	top: 10px;
-	overflow: hidden;
 }
 .haohuo-r .haohuo-r-content .com-list .com-list-wrapper{
 	float: left;
@@ -312,7 +311,9 @@
 }
 
 .haohuo-r .haohuo-r-content .ul-wp .com-ul li a {
-	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
 	width: 100%;
 	height: 100%;
 	cursor: pointer;

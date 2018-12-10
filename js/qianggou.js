@@ -43,8 +43,8 @@ $(".right-btn").click(function () {
 // 倒计时
 var ti = document.getElementById("ti");
 setInterval(function () {
-    countDown(2018, 11, 10, 16)
-}, 1000)
+    countDown(2018, 11, 10, 16);
+}, 1000);
 function countDown(years, months, day, hours) {
     var d1 = new Date(years, months, day, hours);
     var d2 = new Date();
@@ -58,7 +58,7 @@ function countDown(years, months, day, hours) {
     <span>${addZero(mins)}</span>
     <i>:</i>
     <span>${addZero(second)}</span>
-    `
+    `;
     ti.innerHTML = str;
 }
 
