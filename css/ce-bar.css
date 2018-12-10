@@ -1,0 +1,438 @@
+/* 侧边栏 */
+#sign-bar {
+	position: fixed;
+	top: 0;
+	right: 0;
+	z-index: 99999;
+	width: 35px;
+	height: 100%;
+	font-size: 12px;
+	background: #383838;
+}
+
+.sign-bar-bg {
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: 99998;
+	width: 35px;
+	height: 100%;
+	background-color: #383838;
+}
+
+/* 用户 */
+.sign-bar-bg .usericon {
+	width: 35px;
+	height: 218px;
+	position: relative;
+}
+
+.sign-bar-bg .usericon .user-icon {
+	width: 35px;
+	height: 30px;
+	position: absolute;
+	bottom: 8px;
+	background: url(../img/sidebaricon.png) no-repeat 0 0;
+	cursor: pointer;
+}
+
+.sign-bar-bg .usericon .user-icon:hover {
+	background: url(../img/sidebaricon.png) no-repeat -26px 0;
+	background-color: #FFAA01;
+}
+
+/* 购物车 */
+.sign-bar-bg .shopping {
+	width: 29px;
+	padding: 0 3px;
+}
+
+.sign-bar-bg .shopping .shop {
+	width: 29px;
+	height: 94px;
+	padding: 10px 0 11px 0;
+	cursor: pointer;
+	text-align: center;
+	border-top: 1px solid #4D4D4D;
+	border-bottom: 1px solid #4D4D4D;
+}
+
+.sign-bar-bg .shopping .shopping-car {
+	display: inline-block;
+	width: 29px;
+	height: 27px;
+	background: url(../img/sidebaricon.png) no-repeat 0 -217px;
+}
+
+.sign-bar-bg .shopping .tab-cart-tip {
+	display: inline-block;
+	height: 52px;
+	width: 20px;
+	margin: 0 auto;
+	color: #FFF;
+	font-size: 12px;
+}
+
+.sign-bar-bg .shopping .tab-cart-num {
+	display: inline-block;
+	min-width: 17px;
+	height: 15px;
+	padding: 0 2px;
+	background-color: #D00;
+	color: #FFF;
+	line-height: 15px;
+	border-radius: 5px;
+}
+
+.sign-bar-bg .shopping:hover {
+	background: #FFAA01;
+
+}
+
+.sign-bar-bg .shopping:hover .shop {
+	border-top: 1px solid #FFAA01;
+	border-bottom: 1px solid #FFAA01;
+}
+
+/* 信息 */
+.sign-bar-bg .message {
+	position: relative;
+	width: 35px;
+	height: 30px;
+	margin-bottom: 5px;
+	cursor: pointer;
+}
+
+.sign-bar-bg .message .tab-icon-msg {
+	display: block;
+	position: relative;
+	width: 35px;
+	height: 30px;
+	cursor: pointer;
+	background: url(../img/sidebaricon.png) 0px -23px;
+}
+
+.sign-bar-bg .message .tab-icon-tip {
+	display: none;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 35px;
+	height: 30px;
+	cursor: pointer;
+	background: url(../img/sidebaricon.png) -26px -23px;
+}
+
+.sign-bar-bg .message .tab-tip {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 47px;
+	height: 30px;
+	line-height: 30px;
+	text-indent: 11px;
+	letter-spacing: 1px;
+	cursor: pointer;
+	color: #FFAA01;
+	background: #383838;
+	opacity: 0;
+	transition: 0.5s ease-in;
+}
+
+.sign-bar-bg .message:hover .tab-icon-tip {
+	display: block;
+	background-color: #FFAA01;
+}
+
+.sign-bar-bg .message:hover .tab-tip {
+	transform: translate(-47px);
+	transition: 0.5s ease-in;
+	background: #ffaa01;
+	color: #333333;
+	opacity: 1;
+}
+
+/* tab-center */
+.sign-bar-bg .tab-center {
+	width: 35px;
+	height: 105px;
+	position: absolute;
+	left: 0;
+	top: 420px;
+}
+
+.sign-bar-bg .tab-center i,
+.sign-bar-bg .tab-bottom i {
+	cursor: pointer;
+	background: url(../img/sidebaricon.png) no-repeat;
+	font-size: 12px;
+	display: block;
+}
+
+/* 理财 */
+.sign-bar-bg .tab-center .licai {
+	width: 35px;
+	height: 30px;
+	margin-bottom: 5px;
+	position: absolute;
+}
+
+.sign-bar-bg .tab-center .licai .tab-icon-licai {
+	width: 35px;
+	height: 30px;
+	background-color: #383838;
+	background-position: 0px -47px;
+	display: block;
+}
+
+/* 足迹 */
+.sign-bar-bg .tab-center .zuji {
+	width: 35px;
+	height: 30px;
+	margin-bottom: 5px;
+	position: absolute;
+	top: 35px;
+}
+
+/* 原色足迹 */
+.sign-bar-bg .tab-center .zuji .tab-icon-zuji {
+	width: 35px;
+	height: 30px;
+	background-color: #383838;
+	background-position: 0px -70px;
+	display: block;
+}
+
+/* 白色足迹 */
+.sign-bar-bg .tab-center .zuji .tab-zuji-icon {
+	position: absolute;
+	top: 0;
+	width: 35px;
+	height: 30px;
+	background-color: #383838;
+	background-position: -26px -70px;
+	display: none;
+}
+
+/* 签到 */
+.sign-bar-bg .tab-center .qiandao {
+	width: 35px;
+	height: 30px;
+	margin-bottom: 5px;
+	position: absolute;
+	top: 70px;
+}
+
+.sign-bar-bg .tab-center .qiandao .tab-icon-qiandao {
+	width: 35px;
+	height: 30px;
+	background-color: #383838;
+	background-position: 0px -93px;
+	display: block;
+}
+
+.sign-bar-bg .tab-center .qiandao .tab-qiandao-icon {
+	position: absolute;
+	top: 0;
+	width: 35px;
+	height: 30px;
+	background-color: #383838;
+	background-position: -26px -93px;
+	display: none;
+}
+
+.tab-center ._tab_tip {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 47px;
+	height: 30px;
+	line-height: 30px;
+	text-indent: 11px;
+	letter-spacing: 1px;
+	cursor: pointer;
+	color: #FFAA01;
+	background: #383838;
+	transition: 0.5s ease-in;
+	z-index: -11;
+}
+
+.sign-bar-bg .tab-center .licai:hover .tab-licai-icon {
+	background-color: #FFAA01;
+	display: block;
+}
+
+.sign-bar-bg .tab-center .zuji:hover .tab-zuji-icon {
+	background-color: #FFAA01;
+	display: block;
+}
+
+.sign-bar-bg .tab-center .qiandao:hover .tab-qiandao-icon {
+	background-color: #FFAA01;
+	display: block;
+}
+
+.sign-bar-bg .tab-center .licai:hover ._tab_tip,
+.sign-bar-bg .tab-center .zuji:hover ._tab_tip,
+.sign-bar-bg .tab-center .qiandao:hover ._tab_tip {
+	transform: translate(-47px);
+	transition: 0.5s ease-in;
+	background: #ffaa01;
+	color: #333333;
+}
+
+/* 底部 */
+.sign-bar-bg .tab-bottom {
+	width: 35px;
+	height: 140px;
+	position: absolute;
+	left: 0;
+	bottom: 5px;
+}
+
+/* 在线咨询 */
+.sign-bar-bg .tab-bottom .zixun {
+	width: 35px;
+	height: 30px;
+	margin-bottom: 5px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.sign-bar-bg .tab-bottom .zixun .tab-icon-zixun {
+	width: 35px;
+	height: 30px;
+	background-color: #383838;
+	background-position: 0px -117px;
+}
+
+/* 意见反馈 */
+.sign-bar-bg .tab-bottom .yijian {
+	width: 35px;
+	height: 30px;
+	margin-bottom: 5px;
+	position: absolute;
+	top: 35px;
+}
+
+.sign-bar-bg .tab-bottom .yijian .tab-icon-yijian {
+	width: 35px;
+	height: 30px;
+	background-color: #383838;
+	background-position: 0px -138px;
+}
+
+/* 扫码 */
+.sign-bar-bg .tab-bottom .saoma {
+	width: 35px;
+	height: 30px;
+	margin-bottom: 5px;
+	position: absolute;
+	top: 70px;
+
+}
+
+.sign-bar-bg .tab-bottom .saoma .tab-icon-saoma {
+	width: 35px;
+	height: 30px;
+	background-color: #383838;
+	background-position: 0px -163px;
+}
+
+.sign-bar-bg .tab-bottom .saoma .saoma_code {
+	position: absolute;
+	left: 0;
+	bottom: -5px;
+	width: 160px;
+	height: 236px;
+	display: none;
+	background: url(../img/aoyun-code.png) no-repeat;
+	transition: 0.5s ease-in;
+}
+
+.sign-bar-bg .tab-bottom .saoma .saoma_code_img {
+	width: 134px;
+	height: 134px;
+	margin: 58px auto 0;
+}
+
+.sign-bar-bg .tab-bottom .saoma .saoma_code_icon {
+	width: 35px;
+	height: 30px;
+	position: absolute;
+	bottom: 3px;
+	left: -13px;
+	background: url(../img/sidebaricon.png) no-repeat -26px -210px;
+	display: none;
+}
+
+.sign-bar-bg .tab-bottom .saoma:hover .saoma_code {
+	display: block;
+	left: -160px;
+}
+
+.sign-bar-bg .tab-bottom .saoma:hover .saoma_code_icon {
+	display: block;
+}
+
+/* 返回顶部 */
+.sign-bar-bg .tab-bottom .dingbu {
+	width: 35px;
+	height: 30px;
+	margin-bottom: 5px;
+	position: absolute;
+	top: 105px;
+}
+
+.sign-bar-bg .tab-bottom .dingbu .tab-icon-dingbu {
+	width: 35px;
+	height: 30px;
+	background-color: #383838;
+	background-position: 0px -186px;
+}
+
+.sign-bar-bg .tab-bottom ._tab_ {
+	position: absolute;
+	top: 0;
+	left: 0px;
+	width: 73px;
+	height: 30px;
+	line-height: 30px;
+	text-indent: 11px;
+	letter-spacing: 1px;
+	z-index: -11;
+	cursor: pointer;
+	color: #FFAA01;
+	background: #383838;
+	transition: 0.5s ease-in;
+}
+
+.sign-bar-bg .tab-bottom .zixun:hover .tab_icon1 {
+	background-color: #FFAA01;
+	background-position: -26px -117px;
+}
+
+.sign-bar-bg .tab-bottom .yijian:hover .tab_icon2 {
+	background-color: #FFAA01;
+	background-position: -26px -138px;
+}
+
+.sign-bar-bg .tab-bottom .saoma:hover .tab_icon3 {
+	background-color: #FFAA01;
+	background-position: -26px -163px;
+}
+
+.sign-bar-bg .tab-bottom .dingbu:hover .tab_icon4 {
+	background-color: #FFAA01;
+	background-position: -26px -186px;
+}
+
+.sign-bar-bg .tab-bottom .zixun:hover ._tab_,
+.sign-bar-bg .tab-bottom .yijian:hover ._tab_,
+.sign-bar-bg .tab-bottom .dingbu:hover ._tab_ {
+	transform: translate(-73px);
+	transition: 0.5s ease-in;
+	background: #ffaa01;
+	color: #333333;
+}

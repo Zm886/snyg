@@ -1,0 +1,44 @@
+/* 大促销	 */
+#dacu {
+	height: 150px;
+	width: 100%;
+}
+
+.dacuxiao {
+	height: 150px;
+	width: 1190px;
+	margin: 0 auto;
+
+}
+
+/* 促销下 */
+#cuxiao-floor {
+	width: 100%;
+	height: 420px;
+	/* margin-bottom: 20px; */
+	background: #F2F2F2;
+}
+
+.content-main {
+	background: #fe620d;
+	height: 400px;
+	width: 1190px;
+	margin: 0 auto;
+}
+
+.content {
+	height: 400px;
+	width: 1190px;
+}
+
+#cuxiao-floor .content ul li {
+	float: left;
+	width: 230px;
+	height: 190px;
+	margin-left: 10px;
+	margin-bottom: 10px;
+}
+
+#cuxiao-floor .content .li-none {
+	margin-left: 0px;
+}

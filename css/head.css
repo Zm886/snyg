@@ -1,0 +1,192 @@
+/* 头部head */
+#header {
+	width: 100%;
+	height: 110px;
+	background: #FFFFFF;
+}
+
+.head {
+	height: 110px;
+	width: 1190px;
+	margin: 0 auto;
+	background: #FFFFFF;
+	position: relative;
+}
+
+.head .logo {
+	width: 190px;
+	height: 110px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.head .logo .logo-set .img {
+	width: 190px;
+	height: 90px;
+}
+
+.head .cuxiao-logo-gif {
+	width: 170px;
+	height: 110px;
+	position: absolute;
+	top: 0;
+	left: 190px;
+}
+
+.head .ng-search {
+	height: 110px;
+	width: 800px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	
+	
+}
+
+.head .ng-search .search-box {
+	height: 70px;
+	position: relative;
+	margin-bottom: 8px;
+}
+/* 动过 */
+.head .ng-search .search-box form{
+	height: 70px;
+	width: 800px;
+}
+.head .ng-search .search-box .icon-sousuo {
+	display: block;
+	position: absolute;
+	top: 30px;
+	left: 0;
+	width: 30px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 14px;
+	text-align: right;
+}
+
+.head .ng-search .search-box .search {
+	height: 36px;
+	width: 410px;
+	margin-top: 30px;
+	padding-left: 30px;
+	border: 2px solid #ffaa00;
+	border-right: none;
+	font-size: 12px;
+	color: #BBB;
+	line-height: 36px;
+}
+
+.head .ng-search .search-box .search-btn {
+	width: 120px;
+	height: 40px;
+	margin-top: 30px;
+	font-size: 18px;
+	border: 0;
+	color: #fff;
+	cursor: pointer;
+	font-weight: bold;
+	letter-spacing: 2px;
+	text-indent: 2px;
+	background: #ff9900;
+}
+/* 搜索弹出的关键词 */
+.head .ng-search .search-box .search-message{
+	width: 560px;
+	height: 242px;
+	position: absolute;
+	background: #fff;
+	top: 70px;
+	border: 1px solid #e4e4e4;
+	z-index: 1000;
+	overflow: hidden;
+	display: none;
+}
+.head .ng-search .search-box .search-message li{
+	display: block;
+    margin: 0;
+    cursor: pointer;
+    height: 24px;
+    line-height: 24px;
+    padding: 0 10px;
+    text-align: left;
+    font-weight: bold;
+    color: #666;
+    overflow: hidden;
+}
+.head .ng-search .search-box .search-message li a{
+	color: #666;
+	font-size: 12px;
+}
+.head .ng-search .search-box .search-message li a:hover{
+	color: #f60;
+}
+/* 搜索关键字 */
+.head .ng-search .search-hotwords {
+	height: 12px;
+	width: 800px;
+}
+
+.head .ng-search .search-hotwords a {
+	display: inline-block;
+	font-size: 11px;
+	line-height: 11px;
+	height: 12px;
+	color: #a599a5;
+}
+
+.head .ng-search .search-hotwords a:hover {
+	color: #FF6600;
+}
+
+.head .ng-search .search-hotwords a:nth-child(1) {
+	padding-right: 9px;
+	border-right: 1px solid #ddd;
+}
+
+.head .ng-search .search-hotwords a:nth-child(2) {
+	padding-right: 11px;
+	padding-left: 10px;
+	border-right: 1px solid #ddd;
+}
+
+.head .ng-search .search-hotwords a:nth-child(3) {
+	padding-right: 9px;
+	padding-left: 10px;
+	border-right: 1px solid #ddd;
+}
+
+.head .ng-search .search-hotwords a:nth-child(4) {
+	padding-right: 9px;
+	padding-left: 10px;
+	border-right: 1px solid #ddd;
+}
+
+.head .ng-search .search-hotwords a:nth-child(5) {
+	padding-right: 9px;
+	padding-left: 10px;
+	border-right: 1px solid #ddd;
+}
+
+.head .ng-search .search-hotwords a:nth-child(6) {
+	padding-right: 11px;
+	padding-left: 10px;
+	border-right: 1px solid #ddd;
+}
+
+.head .ng-search .search-hotwords a:nth-child(7) {
+	padding-right: 9px;
+	padding-left: 10px;
+	border-right: 1px solid #ddd;
+}
+
+.head .ng-search .search-hotwords a:nth-child(8) {
+	padding-right: 9px;
+	padding-left: 10px;
+	border-right: 1px solid #ddd;
+}
+
+.head .ng-search .search-hotwords a:nth-child(9) {
+	padding-left: 10px;
+}

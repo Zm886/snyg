@@ -1,0 +1,170 @@
+/* 猜你喜欢 */
+#reco-floor {
+	width: 100%;
+	height: 6918px;
+	margin-top: 20px;
+	border-bottom: 1px solid #E7E7E7;
+}
+
+.floor-reco {
+	width: 1190px;
+	height: 6918px;
+	margin: 0 auto;
+}
+
+.floor-reco .reco-title {
+	width: 1190px;
+	height: 20px;
+	margin-bottom: 12px;
+}
+
+.floor-reco .reco-title span {
+	width: 3px;
+	height: 20px;
+	background: #fe9901;
+	float: left;
+}
+
+.floor-reco .reco-title h6 {
+	margin-left: 12px;
+	height: 20px;
+	/* background: #fe9901; */
+	float: left;
+	font-size: 18px;
+	line-height: 20px;
+	font-weight: bold;
+}
+
+.floor-reco .reco-cont {
+	width: 1190px;
+	height: 6857px;
+}
+
+.floor-reco .reco-cont ul li {
+	width: 237px;
+	height: 340px;
+	position: relative;
+	float: left;
+	margin: 1px 0 0 1px;
+	background: #FFF;
+	overflow: hidden;
+}
+
+.floor-reco .reco-cont ul li .pro-link {
+	position: absolute;
+	display: block;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	text-decoration: none;
+	cursor: pointer;
+	color: #333;
+}
+.floor-reco .reco-cont ul li:hover a{
+	color: rgba(255, 68, 0, 0.87);
+}
+.floor-reco .reco-cont ul li .pro-link img {
+	width: 200px;
+	height: 200px;
+	margin: 20px auto 0;
+	transition: 0.5s;
+}
+.floor-reco .reco-cont ul li .pro-link img:hover{
+	transform: scale(1.1);
+	-moz-transform: scale(1.1);
+	-o-transform: scale(1.1);
+	-ms-transform: scale(1.1);
+	-webkit-transform: scale(1.1);
+}
+
+#reco-floor .floor-reco .reco-cont ul li .pro-link .title-reco {
+	width: 193px;
+	height: 40px;
+	margin: 15px auto 5px;
+	overflow: hidden;
+	font-size: 12px;
+	line-height: 20px;
+	word-break: break-all;
+}
+
+#reco-floor .floor-reco .reco-cont ul li .pro-link .title-reco .zyIcon {
+	float: left;
+	width: 35px;
+	height: 18px;
+	margin: 2px 5px 0 0;
+	background: url(../img/index.png) no-repeat -561px -270px;
+}
+
+#reco-floor .floor-reco .reco-cont .pro-link .price {
+	margin-left: 20px;
+	color: #F60;
+	font-size: 16px;
+	line-height: 18px;
+	font-weight: bold;
+}
+
+#reco-floor .floor-reco .reco-cont  .pro-link .cxIcon {
+	position: relative;
+	width: 200px;
+	height: 16px;
+	margin: 7px auto 0;
+	overflow: hidden;
+}
+
+#reco-floor .floor-reco .reco-cont  .pro-link .cxIcon span {
+	position: relative;
+	display: block;
+	float: left;
+	padding: 0 2px;
+	height: 16px;
+	color: #FFF;
+	font-size: 12px;
+	line-height: 16px;
+	background: #F40;
+	margin-right: 10px;
+	border-radius: 3px;
+	white-space: nowrap;
+}
+
+#reco-floor .floor-reco .reco-cont ul li .same {
+	position: absolute;
+	right: 22px;
+	width: 44px;
+	height: 20px;
+	border: 1px solid #f60;
+	border-radius: 4px;
+	bottom: 38px;
+	text-align: center;
+	color: #F60;
+	line-height: 20px;
+}
+
+#reco-floor .floor-reco .reco-cont .end {
+	position: relative;
+	width: 112px;
+	height: 22px;
+	text-align: center;
+	color: #CCC;
+	margin: 15px auto;
+	font-size: 18px;
+	line-height: 22px;
+}
+
+#reco-floor .floor-reco .reco-cont .end .line-left {
+	left: -97px;
+	position: absolute;
+	top: 11px;
+	width: 97px;
+	height: 1px;
+	background: #CCC;
+}
+
+#reco-floor .floor-reco .reco-cont .end .line-right {
+	position: absolute;
+	top: 11px;
+	width: 97px;
+	height: 1px;
+	background: #CCC;
+	right: -97px;
+}

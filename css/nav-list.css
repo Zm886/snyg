@@ -1,0 +1,85 @@
+/* 分类菜单 */
+#nav-list {
+	height: 38px;
+	background: #fff;
+}
+
+.nav-list-bar {
+	height: 38px;
+	width: 1190px;
+	margin: 0 auto;
+	background: #fff;
+	position: relative;
+}
+
+.nav-list-l {
+	height: 38px;
+	width: 190px;
+	background: #ff6600;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.nav-list-l .nav-all-hook {
+	position: relative;
+	display: block;
+	height: 38px;
+	width: 190px;
+}
+
+.nav-list-l .icon-fenlei {
+	display: block;
+	position: absolute;
+	font-size: 12px;
+	width: 12px;
+	height: 10px;
+	top: 14px;
+	left: 9px;
+	color: #fff;
+}
+
+.nav-list-l .nav-all-hook .fenlei {
+	display: block;
+	height: 12px;
+	font-size: 12px;
+	line-height: 12px;
+	position: absolute;
+	left: 28px;
+	top: 13px;
+	color: #fff!important;
+    font-weight: bold;
+}
+/* 动过 */
+.nav-list-r {
+	height: 38px;
+	width: 743px;
+	position: absolute;
+	top:0px;
+	left: 190px;
+}
+
+.nav-list-r .nav-list-r-ul {
+	height: 38px;
+}
+
+.nav-list-r .nav-list-r-ul li {
+	float: left;
+	line-height: 38px;
+	margin-right: 25px;
+}
+.nav-list-r .nav-list-r-ul .fisrt-li{
+	margin-left: 23px;
+}
+.nav-list-r .nav-list-r-ul .last-li{
+	margin-right: 0px;
+}
+.nav-list-r .nav-list-r-ul li a {
+	font-size: 15px;
+	color: #333333;
+	font-weight: 700;
+}
+
+.nav-list-r .nav-list-r-ul li a:hover {
+	color: #FF6600;
+}

@@ -1,0 +1,64 @@
+/* 左侧导航 */
+.float-tool {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	z-index: 1000;
+	right: auto;
+	margin-left: -670px;
+	margin-top: -159px;
+	display: none;
+}
+
+.lou-bar {
+	position: relative;
+	width: 68px;
+	padding-top: 9px;
+	border: 1px solid #DDD;
+	background: #f8f8f8;
+}
+
+.lou-bar .lou-bars {
+	position: absolute;
+	width: 45px;
+	height: 37px;
+	left: 13px;
+	top: -29px;
+	z-index: 1;
+	background: url(../img/index.png) no-repeat -302px -80px;
+}
+
+.lou-bar .list-bar {
+	width: 68px;
+	background: #F8F8F8;
+}
+
+.list-bar li {
+	width: 68px;
+	height: 28px;
+	border-bottom: 1px solid #e8e8e8;
+	text-align: center;
+	line-height: 28px;
+	cursor: pointer;
+}
+
+.list-bar li:hover {
+	background: #FF9900;
+}
+
+.list-bar li a {
+	color: #333;
+}
+
+.list-bar li:hover a {
+	color: #fff;
+}
+
+.lou-bar .top {
+	display: block;
+	width: 68px;
+	height: 18px;
+	font-size: 12px;
+	line-height: 1.5;
+	background: url(../img/index.png) no-repeat -230px -183px;
+}

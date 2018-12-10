@@ -1,0 +1,415 @@
+/* 人气好货 */
+#renqi {
+	width: 100%;
+	height: 427px;
+	margin-top: 20px;
+	background: #F2F2F2;
+}
+
+.haohuo {
+	width: 1190px;
+	height: 427px;
+	margin: 0 auto;
+	background: #F2F2F2;
+}
+
+.haohuo-l,
+.haohuo-c,
+.haohuo-r {
+	height: 427px;
+	width: 390px;
+	margin-right: 10px;
+	background: #fff;
+}
+
+.haohuo-r {
+	margin-right: 0px;
+}
+
+.haohuo-l-title,
+.haohuo-c-title,
+.haohuo-r-title {
+	height: 45px;
+	width: 390px;
+	background: #3b8c94;
+	position: relative;
+}
+
+.haohuo-c-title {
+	background: #e66a07;
+}
+
+.haohuo-r-title {
+	background: #b62323;
+}
+
+/* k可以复用 */
+.haohuo-l-title .title-first,
+.haohuo-c-title .title-first,
+.haohuo-r-title .title-first {
+	width: 303px;
+	height: 45px;
+	line-height: 45px;
+	font-size: 17px;
+	color: #ffffff;
+	margin-left: 15px;
+	
+}
+
+.haohuo-c-title .title-first {
+	width: 279px;
+}
+.haohuo-c-title .new-logo {
+	position: absolute;
+    left: 87px;
+    bottom: 8px;
+    width: 53px;
+	height: 53px;
+	background: url(../img/phb-logo.png) no-repeat;
+}
+
+.haohuo-r-title .title-first {
+	width: 291px;
+}
+
+.haohuo-l-title .title-second,
+.haohuo-c-title .title-second,
+.haohuo-r-title .title-second {
+	width: 56px;
+	height: 45px;
+	line-height: 45px;
+	font-size: 11px;
+
+}
+
+.haohuo-c-title .title-second {
+	width: 80px;
+}
+
+.haohuo-r-title .title-second {
+	width: 68px;
+}
+
+.title-second a {
+	color: #fff;
+}
+
+.haohuo-l-title .title-three,
+.haohuo-c-title .title-three,
+.haohuo-r-title .title-three {
+	height: 45px;
+	width: 16px;
+}
+
+.title-three a {
+	position: relative;
+	display: block;
+	height: 45px;
+	width: 16px;
+}
+
+.h3-i {
+	position: absolute;
+	top: 18px;
+	color: #fff;
+	width: 6px;
+	height: 9px;
+	font-size: 9px !important;
+}
+
+/* 可以复用 */
+.haohuo-l .haohuo-l-content,
+.haohuo-c .haohuo-c-content{
+	width: 369px;
+	height: 362px;
+	margin: 10px 10px 10px 11px;
+	background: #fff;
+}
+
+.haohuo-l .haohuo-l-content ul {
+	width: 369px;
+	height: 362px;
+	overflow: hidden;
+	background: #fff;
+}
+
+.haohuo-l .haohuo-l-content ul li {
+	position: relative;
+	float: left;
+	width: 184px;
+	height: 120px;
+}
+
+.haohuo-l-content ul li:nth-of-type(2n-1) {
+	border-right: 1px solid #e7e7e7;
+}
+
+.haohuo-l-content ul li:nth-of-type(3) {
+	border-top: 1px solid #e7e7e7;
+	border-bottom: 1px solid #e7e7e7;
+}
+
+.haohuo-l-content ul li:nth-of-type(4) {
+	border-top: 1px solid #e7e7e7;
+	border-bottom: 1px solid #e7e7e7;
+}
+
+.haohuo-l .haohuo-l-content ul li a {
+	float: left;
+	width: 184px;
+	height: 120px;
+	cursor: pointer;
+	position: relative;
+	display: block;
+}
+
+.haohuo-l .haohuo-l-content .p-name {
+	width: 70px;
+	height: 32px;
+	color: #333;
+	margin: 19px 0 0 15px;
+	font-size: 12px;
+	overflow: hidden;
+	word-break: break-all;
+}
+
+.haohuo-l .haohuo-l-content .p-desc {
+	width: 70px;
+	height: 11px;
+	font-size: 11px;
+	line-height: 11px;
+	color: #999;
+	overflow: hidden;
+	margin: 15px 0 0 15px;
+}
+
+.haohuo-l .haohuo-l-content .p-desc em {
+	color: #3b8c94;
+}
+
+.haohuo-l .haohuo-l-content ul li a img {
+	width: 90px;
+	height: 90px;
+	position: absolute;
+	bottom: 3px;
+	right: 3px;
+}
+
+/* 好货-c */
+.haohuo-c .haohuo-c-content ul {
+	width: 369px;
+	height: 362px;
+	overflow: hidden;
+}
+
+.haohuo-c .haohuo-c-content ul li {
+	position: relative;
+	float: left;
+	width: 184px;
+	height: 180px;
+	border-bottom: 1px solid #E7E7E7;
+}
+
+.haohuo-c .haohuo-c-content ul .item {
+	border-right: 1px solid #E7E7E7;
+}
+
+.haohuo-c .haohuo-c-content ul li a {
+	float: left;
+	width: 184px;
+	height: 180px;
+	cursor: pointer;
+}
+
+.haohuo-c .haohuo-c-content ul li a .name {
+	height: 20px;
+	line-height: 20px;
+	font-size: 14px;
+	margin: 16px 0 5px 9px;
+	padding: 0 8px;
+	background: #e66a07;
+	float: left;
+	border-radius: 20px;
+	word-break: break-all;
+	overflow: hidden;
+	color: #fff;
+}
+
+.haohuo-c .haohuo-c-content ul li a .desc {
+	font-size: 12px;
+	height: 12px;
+	line-height: 12px;
+	margin-left: 16px;
+	color: #999;
+}
+
+.haohuo-c .haohuo-c-content ul li a .first-img {
+	margin-left: 2px;
+}
+
+.haohuo-c .haohuo-c-content ul li a img {
+	float: left; 
+	width: 90px;
+	height: 90px;
+	margin-top: 14px;
+
+}
+
+/* 好货L */
+.haohuo-r .haohuo-r-content{
+	width: 380px;
+	height: 362px;
+	overflow: hidden;
+	background: #fff;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+.haohuo-r .haohuo-r-content .ul-wp {
+	width: 370px;
+	height: 180px;
+	position: relative;
+	float: left;
+}
+.haohuo-r .haohuo-r-content .com-list{
+	width: 1200px;
+	height: 362px;
+	position: absolute;
+	left: 10px;
+	top: 10px;
+	overflow: hidden;
+}
+.haohuo-r .haohuo-r-content .com-list .com-list-wrapper{
+	float: left;
+	width: 380px;
+	height: 362px;
+	position: relative;
+}
+.haohuo-r .haohuo-r-content .com-list .com-list-wrapper .ul-wp .cate-title {
+	position: absolute;
+	height: 22px;
+	line-height: 22px;
+	font-size: 14px;
+	border-radius: 12px;
+	padding: 0 5px;
+	top: 14px;
+	left: 0;
+	background: #c72c2c;
+	color: #FFFFFF;
+}
+
+.haohuo-r .haohuo-r-content .ul-wp .com-ul {
+	height: 166px;
+	width: 370px;
+	padding-top: 14px;
+	border-bottom: 1px solid #e7e7e7;
+}
+
+.haohuo-r .haohuo-r-content .ul-wp .com-ul li {
+	position: relative;
+	float: left;
+	width: 123px;
+	height: 166px;
+}
+
+.haohuo-r .haohuo-r-content .ul-wp .com-ul li a {
+	display: block;
+	width: 100%;
+	height: 100%;
+	cursor: pointer;
+}
+
+.haohuo-r .haohuo-r-content .ul-wp .com-ul li a img {
+	width: 80px;
+	height: 80px;
+	margin: 28px auto 0;
+}
+
+.haohuo-r .haohuo-r-content .ul-wp .com-ul li a .name {
+	width: 100px;
+	height: 28px;
+	margin-left: 11px;
+	overflow: hidden;
+	color: #333333;
+	font-size: 12px;
+	line-height: 14px;
+}
+
+.haohuo-r .haohuo-r-content .ul-wp .com-ul li a .price {
+	font-size: 14px;
+	line-height: 22px;
+	margin: 1px 0 0 11px;
+	color: #b62323;
+}
+
+.haohuo-r .haohuo-r-content .ul-wp .com-ul li a .price>i,
+.haohuo-r .haohuo-r-content .ul-wp .com-ul li a .price>em {
+	font-size: 12px;
+}
+
+.haohuo-r .haohuo-r-content .ul-wp .com-ul li a span {
+	position: absolute;
+	height: 23px;
+	width: 23px;
+	top: 28px;
+	right: 22px;
+	background: url(../img/index.png) no-repeat;
+	text-align: center;
+	font-size: 12px;
+	line-height: 23px;
+}
+
+.haohuo-r .haohuo-r-content .ul-wp .com-ul li a .paihang1 {
+	background-position: -3px -241px;
+}
+
+.haohuo-r .haohuo-r-content .ul-wp .com-ul li a .paihang2 {
+	background-position: -32px -241px;
+}
+
+.haohuo-r .haohuo-r-content .ul-wp .com-ul li a .paihang3 {
+	background-position: -61px -241px;
+}
+
+.haohuo-r .haohuo-r-content .btn {
+	position: absolute;
+	width: 30px;
+	height: 64px;
+	top: 146px;
+	display: none;
+	background: url(../img/index.png) no-repeat;
+}
+
+.haohuo-r .haohuo-r-content .btn-left {
+	left: 0;
+	background-position: -82px -145px;
+}
+
+.haohuo-r .haohuo-r-content .btn-right {
+	right: 0;
+	background-position: -120px -145px;
+}
+
+.haohuo-r .haohuo-r-content:hover .btn {
+	display: inline;
+}
+
+/* 好货R-底部 */
+.haohuo-r .banner-nav-wrapper {
+	position: absolute;
+	bottom: 5px;
+	left: 11px;
+	width: 370px;
+	height: 8px;
+	text-align: center;
+	background: sandybrown;
+}
+
+.haohuo-r .banner-nav-wrapper .banner-pager .pager  {
+	position: absolute;
+	width: 54px;
+	height: 8px;
+	background: saddlebrown;
+}
+.haohuo-r .banner-nav-wrapper .banner-pager .pager .current{
+	 background: #c72c2c;
+}
