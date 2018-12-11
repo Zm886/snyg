@@ -73,42 +73,172 @@
     height: 120px;
     width: 1920px;
 }
-.banner-g .banner-map{
+
+.banner-g .banner-map {
     position: absolute;
     left: 0;
     top: 0;
     width: 1920px;
     height: 120px;
 }
-.banner-g .banner-map .map{
+
+.banner-g .banner-map .map {
     width: 1190px;
     height: 120px;
     margin: 0 auto;
     cursor: pointer;
     overflow: hidden;
 }
-.banner-g .banner-map .map a{
+
+.banner-g .banner-map .map a {
     float: left;
     width: 100%;
-    height: 100%; 
+    height: 100%;
 }
-.banner-g .banner-map .map .map-logo{
+
+.banner-g .banner-map .map .map-logo {
     width: 308px;
     height: 120px;
     float: left;
 }
+
 .banner-g .banner-map .map .map-mate {
     width: 263px;
     height: 120px;
     float: left;
 }
-.banner-g .banner-map .map .map-changxiang{
+
+.banner-g .banner-map .map .map-changxiang {
     width: 263px;
     height: 120px;
     float: left;
 }
+
 .banner-g .banner-map .map .map-nova {
     width: 198px;
     height: 120px;
     float: left;
+}
+
+/* 手机数码配件 */
+
+#wrapper {
+    width: 100%;
+    height: 40px;
+    background: #f8f8f8;
+}
+
+.wrapper-all {
+    width: 1190px;
+    height: 40px;
+    margin: 0 auto;
+    background: antiquewhite;
+}
+
+.wrapper-all .breadcrumb {
+    height: 20px;
+    padding: 10px 0;
+    line-height: 20px;
+    z-index: 10;
+    /* background: #f8f8f8; */
+}
+
+.wrapper-all .breadcrumb a {
+    font-size: 12px;
+    line-height: 20px;
+    height: 20px;
+    color: #666666;
+}
+
+.wrapper-all .breadcrumb a:hover {
+    color: #f60;
+    text-decoration: underline;
+}
+
+.wrapper-all .breadcrumb .sep {
+    float: left;
+    height: 20px;
+    line-height: 20px;
+    padding: 0 6px;
+    color: #bbb;
+}
+
+.wrapper-all .breadcrumb .dropdown {
+    float: left;
+    height: 20px;
+    position: relative;
+}
+
+.wrapper-all .breadcrumb .dropdown a {
+    position: relative;
+    height: 18px;
+    padding: 0 20px 0 8px;
+    line-height: 18px;
+    background: #fff;
+    z-index: 2;
+    text-align: center;
+}
+
+.wrapper-all .breadcrumb .dropdown i {
+    position: absolute;
+    top: 7px;
+    right: 6px;
+    width: 8px;
+    height: 4px;
+    background: url(../img/f-icons-ex1.png)-1046px -292px;
+    z-index: 3;
+}
+
+.wrapper-all .header-shop {
+    height: 20px;
+    padding: 10px 0;
+    line-height: 20px;
+}
+
+.wrapper-all .header-shop .header-shop-label {
+    vertical-align: top;
+    display: inline-block;
+    margin-right: 11px;
+    margin-top: 3px;
+    background: #f60;
+    font-size: 10px;
+    height: 14px;
+    line-height: 14px;
+    padding: 0 3px;
+    color: #fff;
+    border-radius: 2px;
+}
+
+.wrapper-all .header-shop .header-shop-name {
+    vertical-align: top;
+    display: inline-block;
+    margin-right: 27px;
+    margin-top: 4px;
+    font-size: 12px;
+    height: 12px;
+    line-height: 12px;
+    color: #333;
+    max-width: 144px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.wrapper-all .header-shop .header-shop-name:hover{
+    text-decoration: underline;
+}
+.wrapper-all .header-shop .header-shop-contact:hover span{
+    color: #f60;
+}
+.wrapper-all .header-shop .header-shop-contact span{
+    color: #666;
+}
+.wrapper-all .header-shop .header-shop-contact .header-shop-icon {
+    vertical-align: top;
+    display: inline-block;
+    font-size: 12px;
+    height: 16px;
+    line-height: 16px;
+    width: 16px;
+    margin-right: 1px;
+    background: url(../img/header-contact-self.gif) no-repeat;
 }
