@@ -1,0 +1,114 @@
+#banner {
+    height: 160px;
+    width: 100%;
+}
+
+.banner-list {
+    height: 40px;
+    width: 1920px;
+    margin: 0 auto;
+    background: #252526;
+}
+
+.banner-list .banner-nav {
+    width: 990px;
+    height: 40px;
+    margin: 0 auto;
+}
+
+.banner-list .banner-nav .nav-list {
+    width: 835px;
+    height: 40px;
+    border-left: 1px solid rgb(152, 0, 0);
+    overflow: hidden;
+}
+
+.banner-list .banner-nav .nav-list li {
+    float: left;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 20px;
+    color: #fff;
+    font-size: 16px;
+    position: relative;
+}
+
+.banner-list .banner-nav .nav-list li a {
+    color: #fff;
+}
+
+.banner-list .banner-nav .nav-list li:hover {
+    background-color: rgb(152, 0, 0);
+}
+
+.banner-list .banner-nav .nav-list li .sf-nav-new {
+    display: block;
+    width: 24px;
+    height: 16px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: url(../img/tre.png) no-repeat -20px -70px;
+}
+
+.banner-list .banner-nav .nav-list li .sf-nav-hot {
+    display: block;
+    width: 24px;
+    height: 16px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background: url(../img/tre.png) no-repeat -20px -94px;
+}
+
+.banner-g {
+    height: 120px;
+    width: 1920px;
+    margin: 0 auto;
+    background: chartreuse;
+    position: relative;
+}
+
+.banner-g .banner-img {
+    height: 120px;
+    width: 1920px;
+}
+.banner-g .banner-map{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 1920px;
+    height: 120px;
+}
+.banner-g .banner-map .map{
+    width: 1190px;
+    height: 120px;
+    margin: 0 auto;
+    cursor: pointer;
+    overflow: hidden;
+}
+.banner-g .banner-map .map a{
+    float: left;
+    width: 100%;
+    height: 100%; 
+}
+.banner-g .banner-map .map .map-logo{
+    width: 308px;
+    height: 120px;
+    float: left;
+}
+.banner-g .banner-map .map .map-mate {
+    width: 263px;
+    height: 120px;
+    float: left;
+}
+.banner-g .banner-map .map .map-changxiang{
+    width: 263px;
+    height: 120px;
+    float: left;
+}
+.banner-g .banner-map .map .map-nova {
+    width: 198px;
+    height: 120px;
+    float: left;
+}
