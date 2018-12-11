@@ -8,12 +8,13 @@
     width: 1920px;
     margin: 0 auto;
     background: #252526;
+    position: relative;
 }
 
 .banner-list .banner-nav {
-    width: 990px;
+    width: 1920px;
     height: 40px;
-    margin: 0 auto;
+    margin-left: 480px;
 }
 
 .banner-list .banner-nav .nav-list {
@@ -85,7 +86,7 @@
 .banner-g .banner-map .map {
     width: 1190px;
     height: 120px;
-    margin: 0 auto;
+    margin-left:365px; 
     cursor: pointer;
     overflow: hidden;
 }
@@ -132,7 +133,6 @@
     width: 1190px;
     height: 40px;
     margin: 0 auto;
-    background: antiquewhite;
 }
 
 .wrapper-all .breadcrumb {
