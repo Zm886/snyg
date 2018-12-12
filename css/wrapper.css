@@ -31,11 +31,43 @@
     background: sienna;
     border: 1px solid #f8f8f8;
     margin-bottom: 10PX;
+    position: relative;
 }
 
 .wrapper-proinfo .proinfo-container .proinfo-left .imgZoom img {
-    width: 100%;
-    height: 100%;
+    width: 450px;
+    height: 450px;
+}
+
+.wrapper-proinfo .proinfo-container .proinfo-left .imgZoom .imgzoom-box img {
+    width: 350px;
+    height: 350px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 999;
+}
+
+.wrapper-proinfo .proinfo-container .proinfo-left .imgZoom .imgzoom-shot {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 200px;
+    z-index: 1;
+    cursor: move;
+    border: 1px solid #aaa;
+    background: #fede4f 50% top no-repeat;
+    opacity: 0.5;
+}
+
+.wrapper-proinfo .proinfo-container .proinfo-left .imgZoom .imgzoom-box {
+    position: absolute;
+    top: 0;
+    right: -352px;
+    width: 350px;
+    height: 350px;
+    border: 1px solid black;
 }
 
 .wrapper-proinfo .proinfo-container .proinfo-left .imgzoom-thumb {
@@ -983,13 +1015,16 @@
     background: #fff;
     white-space: nowrap;
 }
-.pro-serv-panel dd span a{
+
+.pro-serv-panel dd span a {
     color: #666;
 }
-.pro-serv-panel dd span:hover a{
+
+.pro-serv-panel dd span:hover a {
     color: #f60;
     text-decoration: underline;
 }
+
 .pro-serv-panel dd i {
     position: absolute;
     top: 1px;
