@@ -40,16 +40,17 @@
                     <div class="phone-filed">
                         <div class="input-box">
                             <label class="title">手机号码</label>
-                            <input type="text" placeholder="请输入手机号码" id="mobileAlias" class="text">
+                            <input type="text" placeholder="请输入手机号码" maxlength="11" id="mobileAlias" class="text">
+                            <i class="ok"></i>
                         </div>
                         <!-- 提示信息 -->
-                        <div id="aliasTip" class="error-msg hide" style="display: block;">格式不正确，请您输入正确的手机号。</div>
+                        <div id="aliasTip" class="error-msg hide">格式不正确，请您输入正确的手机号。</div>
                     </div>
                     <div class="msg-filed">
                         <div class="input-box">
                             <label class="title">手机验证码</label>
                             <input type="text" placeholder="请输入手机验证码" id="smsCode" class="passcode">
-                            <a href="javascript:void(0)" class="send-msg">获取短信验证码</a>
+                            <a href="javascript:void(0)" class="send-msg" id="sendMsg">获取短信验证码</a>
                         </div>
                         <!-- 提示信息 -->
                         <div id="smsCodeTip" class="error-msg hide">请输入6位数字验证码。</div>
@@ -57,11 +58,11 @@
                     <div class="password-filed">
                         <div class="input-box">
                             <label class="title">设置密码</label>
-                            <input type="password" placeholder="请输入密码" id="setPsw" class="setpwd">
+                            <input type="password" placeholder="请输入密码" maxlength="20" id="setPsw" class="setpwd">
                             <i class="eye"></i>
                         </div>
                         <!-- 提示信息 -->
-                        <div class="suggestion hide">
+                        <div class="suggestion hide" id="suggestion">
                             <em>6-20个字符，由字母，数字和符号的两种以上组合。</em>
                             <a id="pswSuggestion" href="javascript:void(0)">密码设置建议</a>
                         </div>
@@ -83,7 +84,7 @@
         </div>
     </div>
 
-<div id="foot-er" style="background: #f8f8f8;height:200px; border-top: none;">
+    <div id="foot-er" style="background: #f8f8f8;height:200px; border-top: none;">
         <div class="footer-con" style="height:185px;">
             <p class="url-list">
                 <a href="#" style="color:#666666;">苏宁互联</a>
@@ -170,6 +171,7 @@
             </div>
         </div>
     </div>
+    <script src="../js/register.js"></script>
 </body>
 
 </html>
