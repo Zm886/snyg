@@ -5,20 +5,23 @@
 
 .banner-list {
     height: 40px;
-    width: 1920px;
-    margin: 0 auto;
+    width: 100%;
     background: #252526;
     position: relative;
 }
 
 .banner-list .banner-nav {
-    width: 1920px;
-    height: 40px;
-    margin-left: 480px;
+    width: 1190px;
+    height: 40px;  
+    margin: 0 auto;
+    position: relative;
 }
 
 .banner-list .banner-nav .nav-list {
-    width: 835px;
+    position: absolute;
+    top: 0;
+    left: 100px;
+    width: 1090px;
     height: 40px;
     border-left: 1px solid rgb(152, 0, 0);
     overflow: hidden;
@@ -33,7 +36,6 @@
     font-size: 16px;
     position: relative;
 }
-
 .banner-list .banner-nav .nav-list li a {
     color: #fff;
 }
@@ -64,29 +66,29 @@
 
 .banner-g {
     height: 120px;
-    width: 1920px;
-    margin: 0 auto;
-    background: chartreuse;
+    width: 100%;
     position: relative;
 }
 
 .banner-g .banner-img {
     height: 120px;
-    width: 1920px;
+    width: 1190px;
+    margin: 0 auto;
 }
 
 .banner-g .banner-map {
     position: absolute;
-    left: 0;
+    left: 50%;
     top: 0;
-    width: 1920px;
+    margin-left: -595px;
+    width: 1190px;
     height: 120px;
+
 }
 
 .banner-g .banner-map .map {
     width: 1190px;
     height: 120px;
-    margin-left:365px; 
     cursor: pointer;
     overflow: hidden;
 }
@@ -116,7 +118,7 @@
 }
 
 .banner-g .banner-map .map .map-nova {
-    width: 198px;
+    width: 356px;
     height: 120px;
     float: left;
 }
