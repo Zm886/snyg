@@ -734,9 +734,81 @@
     text-overflow: ellipsis;
 }
 
+.tzm .proinfo-yb {
+    margin-bottom: 6px;
+    height: 39px;
+    width: 730px;
+}
 
+.tzm .proinfo-yb dt span {
+    letter-spacing: 0;
+}
 
+.tzm .proinfo-yb dd {
+    margin-left: 80px;
+}
 
+.tzm .proinfo-yb dd ul {
+    padding-right: 95px;
+}
+
+.tzm .proinfo-yb dd ul li {
+    position: relative;
+    z-index: 1;
+    float: left;
+    margin: 0 5px 5px 0;
+}
+
+.tzm .proinfo-yb dd ul li a {
+    position: relative;
+    float: left;
+    height: 32px;
+    padding: 0 8px 0 36px;
+    border: 1px solid #ddd;
+    line-height: 32px;
+    background: #fff;
+    white-space: nowrap;
+}
+
+.tzm .proinfo-yb dd ul li a img {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    width: 14px;
+    height: 14px;
+    border: 1px solid #a98c81;
+}
+
+.tzm .proinfo-yb dd ul li a em {
+    font-size: 14px;
+    color: #666;
+    font-weight: 600;
+    margin-left: 4px;
+}
+
+.tzm .proinfo-yb dd .follow-box .extend-icon {
+    color: #38d;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    vertical-align: 4px;
+    margin-left: 4px;
+}
+
+.tzm .proinfo-yb dd .follow-box .i-help {
+    cursor: pointer;
+    position: relative;
+    background: url(../img/f-icons-ex1.png);
+    background-position: -782px -884px;
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    margin-top: 7px;
+    margin-left: 2px;
+    border: 0;
+    padding: 0;
+    text-decoration: none;
+}
 
 
 
