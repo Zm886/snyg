@@ -4,11 +4,10 @@ var userName = document.getElementById('username');
 var pwd = document.getElementById('password');
 login.onclick = function() {
 	var ajax = new XMLHttpRequest;
-	ajax.open("POST", "login.php", true);
+	ajax.open("POST", "../login.php", true);
 	ajax.send("username=" + username.value + "&password=" + pwd.value);
 	ajax.onreadystatechange = function() {
 		if (ajax.readyState === 4 && ajax.status === 200) {
-			console.log(ajax.responseText);
 			var data = JSON.parse(ajax.responseText).code;
 			if (data === 0) {
 				alert("用户名不存在");
