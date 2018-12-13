@@ -1,13 +1,13 @@
 #procon {
     width: 100%;
-    min-height: 10000px;
+    height: 13115px;
 }
 
 .procon-list {
     width: 1190px;
-    height: 10000px;
     margin: 0 auto;
     margin-top: 15px;
+    height: 13100px;
 }
 
 .loverLeft {
@@ -339,12 +339,148 @@
     overflow: hidden;
     word-break: break-all;
 }
+
 .procon-relate li a {
     color: #666;
     font-size: 12px;
     line-height: 1.5;
 }
-.procon-relate li a:hover{
+
+.procon-relate li a:hover {
     color: #f60;
     text-decoration: underline;
+}
+
+.loverRight {
+    width: 990px;
+    float: right;
+}
+
+.loverRight .tabarea {
+    width: 990px;
+    border: 1px solid #eee;
+    background: #fff;
+}
+
+.loverRight .tabarea .procon-toolbar {
+    height: 47px;
+    width: 990px;
+    position: relative;
+}
+
+.loverRight .tabarea .procon-toolbar .tabarea-items {
+    background: #f7f7f7;
+    height: 47px;
+    width: 990px;
+}
+
+.loverRight .tabarea .procon-toolbar .tabarea-items li {
+    float: left;
+}
+
+.loverRight .tabarea .procon-toolbar .tabarea-items li a {
+    height: 47px;
+    line-height: 47px;
+    padding: 0 25px;
+    float: left;
+    color: #666;
+}
+
+.loverRight .tabarea .procon-toolbar .tabarea-items .current {
+    margin-top: -1px;
+    color: #f60;
+    border-top: 2px solid #f60;
+    background: #fff;
+    box-sizing: border-box;
+}
+
+.procon-toolbar .handle {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 2;
+}
+
+.btn-orange-mini {
+    position: relative;
+    float: left;
+    padding: 0 15px;
+    background: #f50;
+    color: #fff;
+    font: 16px/47px Microsoft Yahei;
+    text-align: center;
+    white-space: nowrap;
+}
+
+.fix-qr-code {
+    position: absolute;
+    right: 136px;
+    top: 0;
+    width: 132px;
+    height: 34px;
+    background: #f7f7f7;
+    color: #222;
+    text-align: center;
+    cursor: default;
+}
+
+.fix-qr-code .qrcode-region {
+    padding: 12px 0;
+    line-height: 24px;
+    font-size: 12px;
+}
+
+.fix-qr-code .ph-qr-icon {
+    display: inline-block;
+    width: 13px;
+    height: 13px;
+    vertical-align: middle;
+    background: url(../img/f-icons-ex1.png);
+    background-position: -663px -352px;
+}
+
+/* 商品介绍· */
+.prod-detail-container {
+    background: #fff;
+    width: 788px;
+    float: left;
+}
+
+.ccc-auth {
+    height: 37px;
+    line-height: 37px;
+    padding-left: 10px;
+    font-size: 12px;
+}
+
+.ccc-auth i {
+    display: inline-block;
+    width: 22px;
+    height: 16px;
+    background-image: url(../img/f-icons-ex1.png);
+    background-position: -641px -562px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.ccc-auth a {
+    color: #38d;
+}
+
+.pro-detail-pics {
+    padding: 18px;
+    overflow: hidden;
+}
+
+.ppcloud-player {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+    width: 750px;
+    height: 420px;
+}
+.pics-img img {
+    vertical-align: middle;
+    max-width: 750px;
 }
