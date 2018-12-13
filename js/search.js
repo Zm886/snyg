@@ -14,6 +14,7 @@ search.onkeydown = function () {
 		searchMessage.style.display = "block";
 	}
 }
+// 点击搜索
 search.onkeyup = function () {
 	_button.onclick = function () {
 		window.location.href = `https://search.suning.com/${search.value}/`;
