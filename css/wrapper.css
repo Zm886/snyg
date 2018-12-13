@@ -28,8 +28,7 @@
 .wrapper-proinfo .proinfo-container .proinfo-left .imgZoom {
     width: 450px;
     height: 450px;
-    background: sienna;
-    border: 1px solid #f8f8f8;
+    border: 1px solid #e2e2e2;
     margin-bottom: 10PX;
     position: relative;
 }
@@ -60,7 +59,7 @@
     right: -352px;
     width: 350px;
     height: 350px;
-    border: 1px solid black;
+    border: 1px solid #e2e2e2;
     z-index: 999;
     overflow: hidden;
 }

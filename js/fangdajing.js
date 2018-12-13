@@ -93,7 +93,7 @@ var imgData = [{
 ]
 var _zoom = document.getElementsByClassName("_zoom");
 var zoom = document.getElementsByClassName("zoom")[0];
-var zoomBox = document.getElementsById("bigbox");
+var zoomBox = document.getElementById("bigbox");
 function imgpage() {
     var n = imgData.length;
     for (var m = 0; m < n; m++) {
