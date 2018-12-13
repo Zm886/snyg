@@ -1,0 +1,350 @@
+#procon {
+    width: 100%;
+    min-height: 10000px;
+}
+
+.procon-list {
+    width: 1190px;
+    height: 10000px;
+    margin: 0 auto;
+    margin-top: 15px;
+}
+
+.loverLeft {
+    float: left;
+    width: 190px;
+    margin-top: -10px;
+    position: relative;
+    z-index: 21;
+}
+
+/* 店铺信息 */
+.loverLeft .intro {
+    width: 188px;
+    margin: 10px 0 0;
+    padding: 0 0 20px;
+    border: 1px solid #ff7000;
+    background: #fff;
+}
+
+.intro .si-intro-head {
+    position: relative;
+    height: 40px;
+    padding: 0 10px;
+}
+
+.intro .si-intro-head .bg {
+    position: absolute;
+    top: 28px;
+    left: 15px;
+    width: 158px;
+    height: 1px;
+    background: #ffdc8f;
+    font-size: 0;
+}
+
+.intro .si-intro-head .si-intro-head-zy {
+    position: relative;
+    width: 80px;
+    height: 22px;
+    padding: 18px 8px 0;
+    margin: 0 auto;
+    background: #fff;
+    font: 700 14px/1.5 Microsoft YaHei;
+    color: #f60;
+}
+
+.intro .si-intro-head .si-intro-head-zy i {
+    display: inline-block;
+    width: 14px;
+    height: 17px;
+    margin-right: 5px;
+    vertical-align: middle;
+    background: url(../img/f-icons-ex1.png) no-repeat -1042px -367px;
+}
+
+.intro .si-intro-list {
+    padding: 0 0 12px;
+    margin: 0 15px;
+    border-bottom: 1px solid #eee;
+}
+
+.intro .si-intro-list dl {
+    margin-top: 10px;
+}
+
+.intro .si-intro-list dt {
+    float: left;
+    color: #999;
+    font-size: 12px;
+}
+
+.intro .si-intro-list dd {
+    margin-left: 36px;
+}
+
+.intro .si-intro-list dl dd a {
+    color: #666666;
+    font-size: 12px;
+}
+
+#onlineTile i {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    margin-top: -1px;
+    margin-right: 2px;
+    background: url(../img/header-contact-self.gif);
+}
+
+.si-intro-trend {
+    width: 159px;
+    margin: 12px auto 0;
+    overflow: hidden;
+}
+
+.si-intro-trend ul {
+    width: 180px;
+}
+
+.si-intro-trend li {
+    float: left;
+    width: 60px;
+}
+
+.si-intro-trend li span {
+    color: #999;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.si-intro-trend li .up {
+    color: #f60;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.si-intro-trend li .up i {
+    display: inline-block;
+    width: 8px;
+    height: 9px;
+    margin-left: 5px;
+    background: url(../img/f-icons-ex1.png) -1048px -612px;
+}
+
+.si-intro-handle2 {
+    height: 28px;
+    margin: 8px 10px 0;
+}
+
+.si-intro-handle2 .si-btn-larger {
+    width: 165px;
+    float: left;
+    display: block;
+    height: 26px;
+    border: 1px solid #ff7000;
+    border-radius: 3px;
+    font: normal 12px/26px Microsoft YaHei;
+    text-align: center;
+    color: #ff7000;
+    transition: background .2s linear 0s;
+}
+
+/* 看了最终买 */
+.area {
+    border: 1px solid #eee;
+    background-color: #fff;
+    margin-top: 10px;
+}
+
+.area-head {
+    height: 34px;
+    padding: 0 10px;
+    border-bottom: 1px solid #eee;
+    overflow: hidden;
+}
+
+.area-head h3 {
+    font-size: 14px;
+    line-height: 34px;
+    color: #666;
+}
+
+.exprec {
+    overflow: hidden;
+}
+
+.exprec li {
+    padding: 10px 0;
+    margin: 1px 10px -1px;
+}
+
+.exprec li a {
+    color: #666;
+}
+
+.exprec li .image {
+    width: 120px;
+    height: 120px;
+    margin: 0 auto;
+}
+
+.exprec li .title {
+    height: 36px;
+    margin: 5px 0;
+    overflow: hidden;
+}
+
+.exprec li .title a {
+    color: #666;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.exprec li .title .zylable {
+    background-color: #f60;
+    color: #fff;
+    padding: 1px 2px;
+    margin-right: 2px;
+}
+
+.exprec li .price-c span {
+    color: #f60;
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.exprec li .com-label {
+    float: right;
+    background: #f60;
+    color: #fff;
+    width: auto;
+    text-align: center;
+    height: 16px;
+    line-height: 16px;
+    padding: 1px 3px;
+    font-weight: 300;
+}
+
+.toppro-tab {
+    width: 168px;
+    height: 26px;
+    margin: 10px auto 0;
+    border: 1px solid #ddd;
+    border-right: 0;
+    background: #f8f8f8;
+}
+
+.toppro-tab li {
+    position: relative;
+    float: left;
+    width: 55px;
+    height: 26px;
+    border-right: 1px solid #ddd;
+    line-height: 26px;
+    text-align: center;
+}
+
+.toppro-tab li.current {
+    background: #fff;
+    height: 27px;
+    _margin-bottom: -1px;
+}
+
+.toppro-tab li a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 55px;
+    height: 26px;
+    color: #666;
+    font-size: 12px;
+}
+
+.toppro-tab li.current a {
+    top: -1px;
+    left: -1px;
+    width: 57px;
+    height: 26px;
+    border-top: 2px solid #f60;
+    color: #f60;
+    font-weight: 700;
+}
+
+.toppro-list li {
+    position: relative;
+    padding: 12px 0;
+    border-bottom: 1px solid #eee;
+    margin-bottom: -1px;
+    overflow: hidden;
+}
+
+.toppro-list li img {
+    float: left;
+    width: 60px;
+    height: 60px;
+    margin-right: 10px;
+}
+
+.toppro-list li .title {
+    height: 35px;
+    margin-bottom: 8px;
+    overflow: hidden;
+    font-size: 12px;
+}
+
+.toppro-list li .title a {
+    color: #666;
+    line-height: 1.5px;
+}
+
+.toppro-list li .price {
+    margin-left: 62px;
+    color: #e00;
+    font-family: Tahoma;
+    font-weight: 700;
+    vertical-align: top;
+    height: 20px;
+    overflow: hidden;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.toppro-list li .num {
+    position: absolute;
+    top: 12px;
+    left: 0;
+    width: 16px;
+    height: 16px;
+    background-position: -830px -884px;
+    font: normal 12px/16px Arial;
+    color: #fff;
+    text-align: center;
+    background: url(../img/f-icons-ex1.png) -862px -884px;
+}
+
+/* 相关分类 */
+.procon-relate {
+    padding: 10px 0;
+    overflow: hidden;
+}
+
+.procon-relate li {
+    float: left;
+    width: 70px;
+    padding-left: 20px;
+    height: 25px;
+    line-height: 25px;
+    overflow: hidden;
+    word-break: break-all;
+}
+.procon-relate li a {
+    color: #666;
+    font-size: 12px;
+    line-height: 1.5;
+}
+.procon-relate li a:hover{
+    color: #f60;
+    text-decoration: underline;
+}
