@@ -136,7 +136,7 @@
 
 .bar .bar-l .bar-l-sitemap:hover {
 	background: #fff;
-	border: 1px solid firebrick;
+	border: 1px solid #dddddd;
 	border-bottom: none;
 
 }
@@ -182,7 +182,7 @@
 /* 商家over */
 .bar .bar-l .bar-l-merchant:hover {
 	background: #fff;
-	border: 1px solid #00FF7F;
+	border: 1px solid #ddd;
 	border-bottom: 0;
 }
 
@@ -230,7 +230,7 @@
 
 .bar .bar-l .bar-l-service:hover {
 	background: #fff;
-	border: 1px solid springgreen;
+	border: 1px solid #dddddd;
 }
 
 .bar .bar-l .bar-l-service:hover .service-bar {
@@ -342,7 +342,7 @@
 
 .bar .bar-r .bar-r-order:hover {
 	background: #fff;
-	border: 1px solid black;
+	border: 1px solid #ddd;
 	border-bottom: none;
 
 }
@@ -426,7 +426,7 @@
 
 .bar .bar-r .bar-r-yigou:hover {
 	background: #fff;
-	border: 1px solid darkblue;
+	border: 1px solid #ddd;
 	border-bottom: none;
 
 }
@@ -532,7 +532,7 @@
 }
 .bar .bar-r .bar-r-shoujizhifu:hover{
 	background: #fff;
-	border: 1px solid seagreen;
+	border: 1px solid #ddd;
 
 }
 .bar .bar-r .bar-r-shoujizhifu:hover .phone-bar{
