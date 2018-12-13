@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="../css/detailspage_banner.css">
     <link rel="stylesheet" href="../css/wrapper.css">
     <link rel="stylesheet" href="../css/wrapperTiein.css">
+    <link rel="stylesheet" href="../css/jquery.exzoom.css">
+    <script src="../js/jquery-1.11.0.min.js"></script>
     <script src="../js/jquery-3.3.1.min.js"></script>
 </head>
 
@@ -388,28 +390,30 @@
             <div class="proinfo-container">
                 <div class="proinfo-left">
                     <div class="imgZoom">
-                        <img src="../img/666.jpg" alt="">
-                        <div class="imgzoom-shot"></div>
-                        <div class="imgzoom-box" id="bigbox">
+                        <div class="zoom" style="width: 450px;height:450px;">
+                            <img src="../img/666.jpg">
+                            <div class="imgzoom-shot"></div>
+                        </div>
+
+                        <div class="imgzoom-box" id="bigbox" style="display:none;">
                             <img src="../img/666.jpg" id="bigimg">
                         </div>
                     </div>
                     <div class="imgzoom-thumb">
                         <ul>
-                            <li>
-                                <a href="#"><img src="../img/HUA (5).jpg" alt=""></a>
+                            <li class="_zoom">
+                                <a href="javascript:void(0)"><img src="../img/HUA (5).jpg" alt=""></a>
                             </li>
-                            <li>
-                                <a href="#"><img src="../img/HUA (4).jpg" alt=""></a>
+                            <li class="_zoom"> <a href="javascript:void(0)"><img src="../img/333.jpg" alt=""></a>
                             </li>
-                            <li>
-                                <a href="#"><img src="../img/HUA (1).jpg" alt=""></a>
+                            <li class="_zoom">
+                                <a href="javascript:void(0)"><img src="../img/HUA (1).jpg" alt=""></a>
                             </li>
-                            <li>
-                                <a href="#"><img src="../img/HUA (2).jpg" alt=""></a>
+                            <li class="_zoom">
+                                <a href="javascript:void(0)"><img src="../img/HUA (2).jpg" alt=""></a>
                             </li>
-                            <li>
-                                <a href="#"><img src="../img/HUA (3).jpg" alt=""></a>
+                            <li class="_zoom">
+                                <a href="javascript:void(0)"><img src="../img/HUA (3).jpg" alt=""></a>
                             </li>
                         </ul>
                     </div>
@@ -1016,6 +1020,7 @@
         </div>
     </div>
     <script src="../js/fangdajing.js"></script>
+
 </body>
 
 </html>
