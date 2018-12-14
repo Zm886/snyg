@@ -5,6 +5,7 @@ var pwd = document.getElementById('password');
 login.onclick = function() {
 	var ajax = new XMLHttpRequest;
 	ajax.open("POST", "../login.php", true);
+	ajax.setRequestHeader("Content-Type","application/x-www-form-urlencoded")
 	ajax.send("username=" + username.value + "&password=" + pwd.value);
 	ajax.onreadystatechange = function() {
 		if (ajax.readyState === 4 && ajax.status === 200) {
@@ -16,7 +17,6 @@ login.onclick = function() {
 			} else if (data === 2) {
 				alert(" 登陆成功");
 			}
-
 		}
 	}
 }
