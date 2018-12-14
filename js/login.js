@@ -16,6 +16,7 @@ login.onclick = function() {
 				alert("密码不正确");
 			} else if (data === 2) {
 				alert(" 登陆成功");
+				window.open("../index.html");
 			}
 		}
 	}
