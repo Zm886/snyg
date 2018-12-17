@@ -77,21 +77,21 @@ window.onscroll = function () {
 	}
 }
 
-for (var i = 0; i < lis.length; i++) {
-	lis[i].index = i;
-	lis[i].onclick = function () {
-		if (700 * this.index >= document.documentElement.scrollTop) {
-			LayerMove("bottom", 700 * this.index);
-		} else {
-			LayerMove("top", 700 * this.index);
-		}
-		// 改变楼层颜色
-		for (var k = 0; k < lis.length; k++) {
-			lis[k].style.background = "";
-		}
-		lis[this.index].style.background = "#F90";
-	}
-}
+// for (var i = 0; i < lis.length; i++) {
+// 	lis[i].index = i;
+// 	lis[i].onclick = function () {
+// 		if (700 * this.index >= document.documentElement.scrollTop) {
+// 			LayerMove("bottom", 700 * this.index);
+// 		} else {
+// 			LayerMove("top", 700 * this.index);
+// 		}
+// 		// 改变楼层颜色
+// 		for (var k = 0; k < lis.length; k++) {
+// 			lis[k].style.background = "";
+// 		}
+// 		lis[this.index].style.background = "#F90";
+// 	}
+// }
 
 function LayerMove(dir, end) {
 	clearInterval(timer);
